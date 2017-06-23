@@ -10,6 +10,7 @@ import infoblox
 
 parser = argparse.ArgumentParser()
 
+# insert the ip here if this is static
 infobloxishere="192.168.0.1"
 
 parser.add_argument('-u', '--username',
