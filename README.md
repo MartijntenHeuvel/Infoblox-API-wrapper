@@ -23,7 +23,7 @@ optional arguments:
   -b INFOBLOXIP, --infobloxip INFOBLOXIP
                         ipadress of the infoblox device
   -n HOSTNAME, --hostname HOSTNAME
-                        new hostname
+                        new fqdn hostname
   -i IPADDRESS, --ipaddress IPADDRESS
                         new ipaddress
   -m MODE, --mode MODE  mode: create or delete
