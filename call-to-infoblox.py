@@ -44,7 +44,9 @@ if args.mode == 'create':
         host=args.hostname,
         ip=args.ipaddress)
     )
-    ip = iba_api.create_host_record(args.ipaddress, args.hostname)
+    call = iba_api.create_host_record(args.ipaddress, args.hostname)
+    print call
 else:
     print("trying to delete {host}".format(host=args.hostname))
-    ip = iba_api.delete_host_record(args.hostname)
+    call = iba_api.delete_host_record(args.hostname)
+    print call
