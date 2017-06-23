@@ -9,6 +9,7 @@ First, clone https://github.com/Infoblox-Development/Infoblox-API-Python
 
 In the directory you are running this from, ensure you simply softlink to that repository. 
 
+~~~
 $ python call-to-infoblox.py -h
 usage: call-to-infoblox.py [-h] [-u USERNAME] [-p PASSWORD] [-b INFOBLOXIP]
                            [-n HOSTNAME] [-i IPADDRESS] [-m MODE]
@@ -26,6 +27,7 @@ optional arguments:
   -i IPADDRESS, --ipaddress IPADDRESS
                         new ipaddress
   -m MODE, --mode MODE  mode: create or delete
+~~~
 
 ## To do
 * Check if object exists before trying to manipulate that.
